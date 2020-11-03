@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/x-icon">      
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Lesson 3- Calculator</title>
+</head>
+<body>
+    <div class="header">
+        <h5>jQuery Calculator</h5>
+        <div>
+            <button class="btn btn-light" id="mode">Change Mode</button>
+            <button class="btn btn-light" id="duplicate">Add Calcuator</button>
+            <button class="btn btn-light">
+                Source Code:
+                <a href="https://yaelbusso.github.io/jQueryCalculator/">
+                    <img src="github-logo.png" style="widows: 20px; height: 20px;"/>
+                </a>
+            </button>
+        </div>        
+    </div>
+    <br><br<br>
+    <div class="calculator card">
+        <form action="" id="calculator">
+            <input type="hidden" id="operation" value=""/>
+            <input type="text" class="calculator-screen z-depth-1" id="answer" value="" disabled="disabled"/>
+            <input type="button" class="operator btn btn-info" value="+" id="plus"/>
+            <input type="button" class="operator btn btn-info" value="-" id="subtract"/>
+            <input type="button" class="operator btn btn-info" value="/" id="divide"/>
+            <input type="button" class="operator btn btn-info" value="*" id="product"/>
+            <input type="button" class="btn btn-light waves-effect" value="1" id="1"/>
+            <input type="button" class="btn btn-light waves-effect" value="2" id="2"/>
+            <input type="button" class="btn btn-light waves-effect" value="3" id="3"/>
+            <input type="button" class="btn btn-light waves-effect" value="4" id="4"/>
+            <input type="button" class="btn btn-light waves-effect" value="5" id="5"/>
+            <input type="button" class="btn btn-light waves-effect" value="6" id="6"/>
+            <input type="button" class="btn btn-light waves-effect" value="7" id="7"/>
+            <input type="button" class="btn btn-light waves-effect" value="8" id="8"/>
+            <input type="button" class="btn btn-light waves-effect" value="9" id="9"/>
+            <input type="button" class="btn btn-light waves-effect" value="0" id="0"/>
+            <input type="button" class="btn btn-light waves-effect" value="C" id="C"/>
+            <input type="button" class="btn btn-light waves-effect" value="=" id="equals"/>
+        </form>
+    </div>
+    <div class="duplicate"></div>
+</body>
+</html>
