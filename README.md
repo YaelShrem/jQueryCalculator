@@ -1,4 +1,4 @@
 # jQueryCalculator
 A Simple Calculator Written In jQuery
 ## Demo
-https://yaelbusso.github.io/jQueryCalculator/
+https://yaelshrem.github.io/jQueryCalculator/
